@@ -1,0 +1,343 @@
+
+
+h1 {
+	font-family: verdana, sans-serif;
+	font-style: bold;
+	font-size: 22px;
+	color:white;
+
+}
+
+h2 {
+	font-family: verdana, sans-serif;
+	font-style: bold;
+	font-size: 12px;
+	color:white;
+}
+p {
+	font-family: verdana, sans-serif;
+	font-size: 14px;
+	color:white;
+	margin:0;
+}
+
+.icon{
+	position:absolute;
+	left:40px;
+	width:70px;
+	height:90px;
+	text-align:center;
+}
+
+.iconDown{
+	position:absolute;
+	top:670px;
+	left:40px;
+	width:70px;
+	height:90px;
+	text-align:center;
+}
+
+
+.fa{
+	color:white;
+	cursor:pointer;
+}
+
+.chiatList{
+	width:150px;
+	height:300px;
+	font-weight: lighter;
+	position:absolute;
+	top:860px;
+	left:150px;
+} 
+
+ul{
+	list-style-type: none;
+}
+
+
+li{
+	font-family: verdana, sans-serif;
+	font-size: 12px;
+	color:white;
+	line-height:30px;
+	list-style-type: none;
+}
+
+.srpHline{
+	padding-top:25px;
+}
+.experienceBox{
+	width:100px;
+	height:100px;
+	position: absolute;
+	top:32px;
+	left:210px;
+}
+
+.copyChiat{
+	width:430px;
+	height:200px;
+	position:absolute;
+	top: 32px;
+	left:446px;
+}
+
+
+.copyDentsu{
+	width:655px;
+	height:800px;
+	position:absolute;
+	top:190px;
+	left:210px;
+}
+
+.copyTenga{
+	width:288px;
+	height:120px;
+	float:left;
+	top: 90px;
+	padding-top:25px;
+	padding-right:30px;
+	padding-bottom:25px;
+	left:325px;
+}
+
+.copySRP{
+	width:500px;
+	height:120px;
+	position:absolute;
+	top: 90px;
+	padding-top:30px;
+	padding-right:40px;
+	top:430px;
+	left:300px;
+}
+
+p.all{
+	font-family: verdana, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	color:white;
+	margin:0;
+}
+
+
+.boxResume {
+	width:900px;
+	height:700px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	margin:0px;
+	background-image: url(../assets/RESUMEbackground.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	z-index: -1;
+}
+.boxTBWA {
+	width:900px;
+	height:700px;
+	position:absolute;
+	left:0px;
+	top:700px;
+	background-image: url(../assets/TBWAbackground.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	z-index: -1;
+}
+
+
+.boxDentsu {
+	width:900px;
+	height:700px;
+	position:absolute;
+	left:0px;
+	top:1400px;
+	background-image: url(../assets/DENTSUbackground.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	z-index: -1;
+}
+
+.boxTENGA {
+	width:900px;
+	height:700px;
+	position:absolute;
+	left:0px;
+	top:2100px;
+	background-image: url(../assets/TENGAbackground.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	z-index: -1;
+}
+
+.boxSRP {
+	width:900px;
+	height:700px;
+	position:absolute;
+	left:0px;
+	top:2800px;
+	background-image: url(../assets/SRPbackground.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	z-index: -1;
+}
+a:link{
+	color:rgb(20,20,180);
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:visited{
+	color:yellow;
+	text-decoration: none;
+}
+
+a:hover.chiat {
+	color:rgba(130,10,0,1);
+	font-weight:normal;
+	text-decoration: none;
+}
+
+.container{
+	width:400px;
+	height:300px;
+}
+
+
+#mainImage{
+	padding:0;
+}
+
+#mainImageCaption{
+	font-family:verdana, sans-serif;
+	font-size:14px;
+	font-weight:bold
+	color:white;
+}
+
+img.bnyTeaser{
+	position:absolute;
+	left:300px;
+	top:700px;
+	background-position: center;
+	opacity:.5;
+}
+
+img.beinTeaser{
+	position:absolute;
+	left:600px;
+	top:800px;
+	opacity:.5;
+}
+
+img.ethiconTeaser{
+	position:absolute;
+	left:770px;
+	top:760px;
+	opacity:.5;
+}
+
+img.mcdTeaser{
+	position:absolute;
+	left:380px;
+	top:860px;
+	opacity:.5;
+}
+
+img.mcdonaldsTeaser{
+	position:absolute;
+	left:780px;
+	top:760px;
+	opacity:.5;
+}
+img:hover{
+	opacity:1;
+}
+
+/** Splash Images **/
+.arrow-left {
+  position: absolute;
+  left:50px;
+  top: 50px;
+  cursor: pointer;
+}
+.arrow-right {
+  position: absolute;
+  right: 750px;
+  top: 50px;
+  cursor: pointer;
+}
+
+
+#mcdonalds1 {
+  background-image: url(../assets/mcdonalds/boxesBlue.jpg);
+      background-size:100%;
+  background-repeat:no-repeat;
+}
+#mcdonalds2 {
+  background-image: url(../assets/mcdonalds/conesGreen.jpg);
+      background-size:100%;
+  background-repeat:no-repeat;
+  display:none;
+}
+
+#mcdonalds3 {
+  background-image: url(../assets/mcdonalds/cupsRed.jpg);
+      background-size:100%;
+  background-repeat:no-repeat;
+  display:none;
+}
+
+#mcdonalds4 {
+  background-image: url(../assets/mcdonalds/greenCups.jpg);
+      background-size:100%;
+  background-repeat:no-repeat;
+  display:none;
+}
+
+#mcdonalds5 {
+  background-image: url(../assets/mcdonalds/iceCreamPurple.jpg);
+      background-size:100%;
+  background-repeat:no-repeat;
+  display:none;
+}
+
+#mcdonalds6 {
+  background-image: url(../assets/mcdonalds/strawsRed.jpg);
+      background-size:100%;
+  background-repeat:no-repeat;
+  display:none;
+}
+.link {
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

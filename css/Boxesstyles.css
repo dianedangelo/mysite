@@ -1,0 +1,25 @@
+p {
+	font-family: georgia;
+	font-size: 16px;
+	background-color: pink;
+	border:2px dotted;
+	padding: 10px;
+	margin:0px;
+}
+
+hr {
+	width:400px;
+	border:3px solid red;
+}
+
+p.column {
+	width:200px;
+	color:white;
+	background-color:blue;
+}
+
+.span {
+	
+	size:12px;
+	background-color: yellow;
+}
